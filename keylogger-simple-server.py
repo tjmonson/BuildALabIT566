@@ -1,4 +1,5 @@
 import eventlet
+import sys
 
 def connection_handler(fd):
     print "client connected"
@@ -16,7 +17,7 @@ def main():
         exit(0)
 
     port = int(sys.argv[1])
-    print "server socket listening on port %d", port
+    print "server socket listening on port", port
     server = eventlet.listen(('0.0.0.0', port))
 
     while True:

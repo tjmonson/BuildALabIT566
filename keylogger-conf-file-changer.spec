@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['keylogger-conf-file-changer.py'],
-             pathex=['/home/monson/BuildALabIT566'],
+             pathex=['C:\\Users\\monson\\Documents\\BuildALab'],
              binaries=None,
              datas=None,
              hiddenimports=[],

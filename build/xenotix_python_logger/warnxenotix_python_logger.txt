@@ -1,10 +1,3 @@
-missing module named codecs.mbcs_encode - imported by codecs, encodings.mbcs
-missing module named codecs.mbcs_decode - imported by codecs, encodings.mbcs
-missing module named binascii.b2a_qp - imported by binascii, quopri
-missing module named binascii.a2b_qp - imported by binascii, quopri
-missing module named binascii.a2b_uu - imported by binascii, encodings.uu_codec
-missing module named binascii.b2a_uu - imported by binascii, encodings.uu_codec
-missing module named binascii.hexlify - imported by binascii, random
 missing module named unicodedata.ucd_3_2_0 - imported by unicodedata, stringprep, encodings.idna
 missing module named _sre.MAXREPEAT - imported by _sre, sre_constants
 missing module named _warnings.warn_explicit - imported by _warnings, warnings
@@ -32,19 +25,23 @@ missing module named _weakref.ReferenceType - imported by _weakref, weakref
 missing module named _weakref.proxy - imported by _weakref, weakref
 missing module named _weakref.getweakrefs - imported by _weakref, weakref
 missing module named _weakref.getweakrefcount - imported by _weakref, weakref
-missing module named _weakref.CallableProxyType - imported by _weakref, weakref
 missing module named _weakref.ProxyType - imported by _weakref, weakref
+missing module named _weakref.CallableProxyType - imported by _weakref, weakref
 missing module named copy.deepcopy - imported by copy, weakref
 missing module named re._compile - imported by re, sre
 missing module named re.__all__ - imported by re, sre
+missing module named codecs.mbcs_encode - imported by codecs, encodings.mbcs
+missing module named codecs.mbcs_decode - imported by codecs, encodings.mbcs
+missing module named binascii.b2a_qp - imported by binascii, quopri
+missing module named binascii.a2b_qp - imported by binascii, quopri
+missing module named binascii.a2b_uu - imported by binascii, encodings.uu_codec
+missing module named binascii.b2a_uu - imported by binascii, encodings.uu_codec
+missing module named binascii.hexlify - imported by binascii, random
 missing module named errno.EINVAL - imported by errno, StringIO
 missing module named errno.ENOENT - imported by errno, gettext
 missing module named cStringIO.StringIO - imported by cStringIO, gettext, pprint, shlex, tempfile, pickle, socket, encodings.uu_codec, quopri, encodings.quopri_codec
 missing module named _struct.__doc__ - imported by _struct, struct
 missing module named _struct._clearcache - imported by _struct, struct
-missing module named win32gui - imported by /home/monson/BuildALabIT566/xenotix_python_logger.py
-missing module named win32console - imported by /home/monson/BuildALabIT566/xenotix_python_logger.py
-missing module named _winreg - imported by /home/monson/BuildALabIT566/xenotix_python_logger.py
 missing module named _ssl.RAND_egd - imported by _ssl, ssl, socket
 missing module named _ssl.SSL_ERROR_EOF - imported by _ssl, socket
 missing module named _ssl.SSL_ERROR_WANT_READ - imported by _ssl, socket
@@ -91,6 +88,7 @@ missing module named _ssl.OPENSSL_VERSION_NUMBER - imported by _ssl, ssl
 missing module named _ssl.OPENSSL_VERSION_INFO - imported by _ssl, ssl
 missing module named _ssl.OPENSSL_VERSION - imported by _ssl, ssl
 missing module named collections.namedtuple - imported by collections, inspect, unittest.util, difflib, doctest, ssl
+missing module named fcntl - imported by tempfile, subprocess
 missing module named _hashlib.pbkdf2_hmac - imported by _hashlib, hashlib
 missing module named threading.RLock - imported by threading, _threading_local
 missing module named threading.current_thread - imported by threading, _threading_local
@@ -117,6 +115,11 @@ missing module named _io.StringIO - imported by _io, io
 missing module named _io.BufferedRWPair - imported by _io, io
 missing module named _io.TextIOWrapper - imported by _io, io
 missing module named _io.UnsupportedOperation - imported by _io, io
+missing module named nt._isdir - imported by nt, ntpath
+missing module named nt._getfullpathname - imported by nt, ntpath
+missing module named nt._exit - imported by nt, os
+missing module named readline - imported by cmd, pdb
+missing module named pwd - imported by posixpath
 missing module named cPickle.loads - imported by cPickle, collections
 missing module named cPickle.dumps - imported by cPickle, collections
 missing module named collections.deque - imported by collections, shlex, threading
@@ -134,9 +137,6 @@ missing module named socket._delegate_methods - imported by socket, ssl
 missing module named socket._fileobject - imported by socket, ssl
 missing module named _functools.partial - imported by _functools, functools
 missing module named _functools.reduce - imported by _functools, functools
-missing module named winerror - imported by /home/monson/BuildALabIT566/xenotix_python_logger.py
-missing module named win32api - imported by /home/monson/BuildALabIT566/xenotix_python_logger.py
-missing module named win32event - imported by /home/monson/BuildALabIT566/xenotix_python_logger.py
 missing module named _subprocess.STD_OUTPUT_HANDLE - imported by _subprocess, subprocess
 missing module named _subprocess.CREATE_NEW_PROCESS_GROUP - imported by _subprocess, subprocess
 missing module named _subprocess.STD_INPUT_HANDLE - imported by _subprocess, subprocess
@@ -147,8 +147,6 @@ missing module named _subprocess.STARTF_USESTDHANDLES - imported by _subprocess,
 missing module named _subprocess.SW_HIDE - imported by _subprocess, subprocess
 missing module named 'org.python'.PyStringMap - imported by 'org.python', pickle
 missing module named 'org.python' - imported by pickle
-missing module named _subprocess - imported by subprocess
-missing module named msvcrt - imported by subprocess
 missing module named riscosenviron._Environ - imported by riscosenviron, os
 missing module named riscosenviron - imported by os
 missing module named riscospath - imported by os
@@ -160,10 +158,6 @@ missing module named _emx_link.link - imported by _emx_link, os
 missing module named _emx_link - imported by os
 missing module named os2._exit - imported by os2, os
 missing module named os2 - imported by os
-missing module named nt._isdir - imported by nt, ntpath
-missing module named nt._getfullpathname - imported by nt, ntpath
-missing module named nt._exit - imported by nt, os
-missing module named nt - imported by os, ntpath
 missing module named posix._exit - imported by posix, os
-missing module named pyHook - imported by /home/monson/BuildALabIT566/xenotix_python_logger.py
-missing module named pythoncom - imported by /home/monson/BuildALabIT566/xenotix_python_logger.py
+missing module named posix - imported by os
+missing module named resource - imported by posix

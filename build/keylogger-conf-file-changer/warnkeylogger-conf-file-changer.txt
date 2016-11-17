@@ -1,10 +1,3 @@
-missing module named codecs.mbcs_encode - imported by codecs, encodings.mbcs
-missing module named codecs.mbcs_decode - imported by codecs, encodings.mbcs
-missing module named binascii.b2a_qp - imported by binascii, quopri
-missing module named binascii.a2b_qp - imported by binascii, quopri
-missing module named binascii.a2b_uu - imported by binascii, encodings.uu_codec
-missing module named binascii.b2a_uu - imported by binascii, encodings.uu_codec
-missing module named binascii.hexlify - imported by binascii, random
 missing module named unicodedata.ucd_3_2_0 - imported by unicodedata, stringprep, encodings.idna
 missing module named _sre.MAXREPEAT - imported by _sre, sre_constants
 missing module named _warnings.warn_explicit - imported by _warnings, warnings
@@ -32,11 +25,18 @@ missing module named _weakref.ReferenceType - imported by _weakref, weakref
 missing module named _weakref.proxy - imported by _weakref, weakref
 missing module named _weakref.getweakrefs - imported by _weakref, weakref
 missing module named _weakref.getweakrefcount - imported by _weakref, weakref
-missing module named _weakref.CallableProxyType - imported by _weakref, weakref
 missing module named _weakref.ProxyType - imported by _weakref, weakref
+missing module named _weakref.CallableProxyType - imported by _weakref, weakref
 missing module named copy.deepcopy - imported by copy, weakref
 missing module named re._compile - imported by re, sre
 missing module named re.__all__ - imported by re, sre
+missing module named codecs.mbcs_encode - imported by codecs, encodings.mbcs
+missing module named codecs.mbcs_decode - imported by codecs, encodings.mbcs
+missing module named binascii.b2a_qp - imported by binascii, quopri
+missing module named binascii.a2b_qp - imported by binascii, quopri
+missing module named binascii.a2b_uu - imported by binascii, encodings.uu_codec
+missing module named binascii.b2a_uu - imported by binascii, encodings.uu_codec
+missing module named binascii.hexlify - imported by binascii, random
 missing module named errno.EINVAL - imported by errno, StringIO
 missing module named errno.ENOENT - imported by errno, gettext
 missing module named cStringIO.StringIO - imported by cStringIO, gettext, pprint, shlex, tempfile, pickle, encodings.uu_codec, quopri, encodings.quopri_codec
@@ -92,10 +92,10 @@ missing module named _io.StringIO - imported by _io, io
 missing module named _io.BufferedRWPair - imported by _io, io
 missing module named _io.TextIOWrapper - imported by _io, io
 missing module named _io.UnsupportedOperation - imported by _io, io
+missing module named readline - imported by cmd, pdb
 missing module named 'org.python'.PyStringMap - imported by 'org.python', pickle
 missing module named 'org.python' - imported by pickle
-missing module named _subprocess - imported by subprocess
-missing module named msvcrt - imported by subprocess
+missing module named fcntl - imported by tempfile, subprocess
 missing module named threading.RLock - imported by threading, _threading_local
 missing module named threading.current_thread - imported by threading, _threading_local
 missing module named os.urandom - imported by os, random
@@ -113,5 +113,7 @@ missing module named os2 - imported by os
 missing module named nt._isdir - imported by nt, ntpath
 missing module named nt._getfullpathname - imported by nt, ntpath
 missing module named nt._exit - imported by nt, os
-missing module named nt - imported by os, ntpath
+missing module named pwd - imported by posixpath
 missing module named posix._exit - imported by posix, os
+missing module named posix - imported by os
+missing module named resource - imported by posix

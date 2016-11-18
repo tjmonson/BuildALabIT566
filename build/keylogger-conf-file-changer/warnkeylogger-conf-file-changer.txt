@@ -70,6 +70,7 @@ missing module named datetime.date - imported by datetime, _strptime
 missing module named _functools.partial - imported by _functools, functools
 missing module named _functools.reduce - imported by _functools, functools
 missing module named _hashlib.pbkdf2_hmac - imported by _hashlib, hashlib
+missing module named os.urandom - imported by os, random
 missing module named math.sin - imported by math, random
 missing module named math.sqrt - imported by math, random
 missing module named math.cos - imported by math, random
@@ -92,13 +93,16 @@ missing module named _io.StringIO - imported by _io, io
 missing module named _io.BufferedRWPair - imported by _io, io
 missing module named _io.TextIOWrapper - imported by _io, io
 missing module named _io.UnsupportedOperation - imported by _io, io
+missing module named nt._isdir - imported by nt, ntpath
+missing module named nt._getfullpathname - imported by nt, ntpath
+missing module named nt._exit - imported by nt, os
 missing module named readline - imported by cmd, pdb
+missing module named pwd - imported by posixpath
 missing module named 'org.python'.PyStringMap - imported by 'org.python', pickle
 missing module named 'org.python' - imported by pickle
 missing module named fcntl - imported by tempfile, subprocess
 missing module named threading.RLock - imported by threading, _threading_local
 missing module named threading.current_thread - imported by threading, _threading_local
-missing module named os.urandom - imported by os, random
 missing module named riscosenviron._Environ - imported by riscosenviron, os
 missing module named riscosenviron - imported by os
 missing module named riscospath - imported by os
@@ -110,10 +114,6 @@ missing module named _emx_link.link - imported by _emx_link, os
 missing module named _emx_link - imported by os
 missing module named os2._exit - imported by os2, os
 missing module named os2 - imported by os
-missing module named nt._isdir - imported by nt, ntpath
-missing module named nt._getfullpathname - imported by nt, ntpath
-missing module named nt._exit - imported by nt, os
-missing module named pwd - imported by posixpath
 missing module named posix._exit - imported by posix, os
 missing module named posix - imported by os
 missing module named resource - imported by posix

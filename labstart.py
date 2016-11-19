@@ -12,8 +12,8 @@ import os
 conf_path="C:\WINDOWS\Help\wmconf"
 
 #Edit the host and port variables to be the host and port of simple-server
-host="128.187.81.220" #example: host="192.168.0.55"
-port="9090" #example: port="9090"
+host="" #example: host="192.168.0.55"
+port="" #example: port="9090"
 
 def main():
     global host,port

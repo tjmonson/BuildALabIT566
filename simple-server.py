@@ -15,7 +15,7 @@ def connection_handler(fd):
     while True:
         # pass through every non-eof line, but don't save any key information for privacy
         # any real key logging server would save the key log information
-        x = fd.read()
+        x = fd.readline()
         if not x: break
     print "client disconnected"
 

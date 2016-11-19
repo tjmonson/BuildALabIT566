@@ -7,9 +7,7 @@
 # The students will copy labstart.exe to the virtual machine and double click it to start the lab.
 # Instruct the students not to open labstart.exe in a file editor. This would give away much
 # of the lab and would be cheating.
-import sys
 import os
-import subprocess
 
 conf_path="C:\WINDOWS\Help\wmconf"
 
